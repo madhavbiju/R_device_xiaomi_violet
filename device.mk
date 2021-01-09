@@ -366,6 +366,9 @@ PRODUCT_PACKAGES += \
     init.recovery.qcom.rc \
     ueventd.qcom.rc
 
+# Reduce system image size by limiting java debug info.
+PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
+
 # RCS
 PRODUCT_PACKAGES += \
     com.android.ims.rcsmanager \
