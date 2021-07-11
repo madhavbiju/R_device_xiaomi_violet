@@ -17,6 +17,9 @@ STELLAR_BUILD_TYPE = gapps
 TARGET_USES_BLUR := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
+# Inherit ANX Camera
+$(call inherit-product, vendor/ANXCamera/config.mk)
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := stellar_violet
 PRODUCT_DEVICE := violet
