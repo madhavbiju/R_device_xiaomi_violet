@@ -215,9 +215,6 @@ PRODUCT_PACKAGES += \
     libqcomfm_jni \
     qcom.fmradio
 
-# Firmware
-$(call inherit-product, vendor/xiaomi-firmware/violet/firmware.mk)
-
 # Framework detect
 PRODUCT_PACKAGES += \
     libqti_vndfwk_detect.vendor \
@@ -369,6 +366,10 @@ PRODUCT_PACKAGES += \
 
 # Reduce system image size by limiting java debug info.
 PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
+
+# Recovery
+PRODUCT_PACKAGES += \
+    librecovery_updater_xiaomi
 
 # RCS
 PRODUCT_PACKAGES += \
