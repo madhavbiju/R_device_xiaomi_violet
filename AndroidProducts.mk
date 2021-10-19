@@ -6,8 +6,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/stellar_violet.mk
+    $(LOCAL_DIR)/lineage_violet.mk
 
 COMMON_LUNCH_CHOICES := \
-    stellar_violet-userdebug \
-    stellar_violet-user
+    lineage_violet-userdebug \
+    lineage_violet-user
