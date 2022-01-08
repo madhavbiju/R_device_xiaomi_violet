@@ -6,8 +6,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_violet.mk
+    $(LOCAL_DIR)/cherish_violet.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_violet-userdebug \
-    lineage_violet-user
+    cherish_violet-userdebug \
+    cherish_violet-user
